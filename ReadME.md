@@ -1,3 +1,4 @@
 ## A sorting visualiser using PyGame
 
-## primitive.py is a version of a bubbleSort visualiser
+Each of the files bubble, insertion and merge correspond to visual illustrations of Bubble Sort, Insertion Sort and Selection Sort respectively 
+
