@@ -3,7 +3,7 @@ import numpy as np
 import math
 
 WIDTH = 800
-SIZE = 50
+SIZE = 25
 pygame.display.set_caption('Sorting Visualiser')
 
 def generate_array():
@@ -67,6 +67,9 @@ def main():
         pygame.display.update()
         
         pygame.event.pump()
+        
+        if sorted_array == sorted(ARRAY):
+            running = False
         
     pygame.quit()
 
